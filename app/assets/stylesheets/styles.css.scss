@@ -1,0 +1,29 @@
+/* You could change the font to Oxygen */
+/*$baseFontFamily: DoppioOne;
+@import url(http://fonts.googleapis.com/css?family=DoppioOne);*/
+
+$btnPrimaryBackground: green;
+$navbarBackgroundHighlight: white;
+$navbarBackground: white;
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+
+@import 'bootstrap-responsive';
+
+/*get rid of navbar shadow*/
+.navbar-inner {
+	@include box-shadow(none !important);
+	border: 0;
+}
+
+.footer{
+	margin-top: 50px;
+	color: $grayLight;
+	a {
+		color: $gray;
+	}
+}
