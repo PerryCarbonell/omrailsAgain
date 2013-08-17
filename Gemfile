@@ -7,6 +7,10 @@ gem 'rails_12factor'
 gem 'devise', '3.0.0.rc'
 gem 'simple_form'
 gem 'protected_attributes'
+gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
+gem 'rails-observers'
+gem 'actionpack-page_caching'
+gem 'actionpack-action_caching'
 
 group :production do
 	gem 'pg'
