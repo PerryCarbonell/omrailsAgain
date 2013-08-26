@@ -34,7 +34,7 @@ body {
 	margin: 5px;
 	padding: 5px;
 	font-size: 11px;
-	line-height: 1.4cm;
+	line-height: 1.4em;
 	float: left;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -44,7 +44,6 @@ body {
 }
 
 .box img {
-	display: block;
 	width: 100%;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -52,5 +51,5 @@ body {
 }
 
 .description {
-	margin: 5px 0 5px;	
+	margin: 10px 0 5px;	
 }
